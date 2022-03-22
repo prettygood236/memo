@@ -21,6 +21,9 @@ npm start
 
 ## 프로젝트 디렉토리 구조
 * [src](./memo-app/src) : source directory
-  * [component](./memo-app/src/components) : 공통 컴포넌트 디렉토리
+  * [components](./memo-app/src/components) : 공통 컴포넌트 디렉토리
   * [pages/memo](./memo-app/src/pages/memo) : 각 페이지별 디렉토리
   * [state](./memo-app/src/state) : 상태관리를 위한 디렉토리
+  
+## 개선사항
+- useMemo 를 이용한 페이지 최적화
